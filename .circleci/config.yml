@@ -245,8 +245,6 @@ jobs:
       - run:
           name: upload coverage
           command: codecov --verbose --clean --flags atst-tests
-          environment:
-            FOUNDRY_PROFILE: ci
 
   contracts-bedrock-tests:
     docker:
